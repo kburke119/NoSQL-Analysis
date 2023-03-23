@@ -14,7 +14,7 @@ Database and Jupyter Notebook Set Up:
 - Found and displayed one document in the establishments collection using find_one and displayed with pprint.
 - Assigned the establishments collection to a variable to prepare the collection for use.
 
-Updated the Database
+Updated the Database:
 - The magazine editors had some requested modifications for the database before I could perform any queries or analysis for them. Made the following changes to the establishments collection:
 - An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine asked me to include it in my analysis. Added their information to the database.
 - Found the BusinessTypeID for "Restaurant/Cafe/Canteen" and returned only the BusinessTypeID and BusinessType fields.
